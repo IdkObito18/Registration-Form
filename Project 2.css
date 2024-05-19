@@ -1,0 +1,100 @@
+body{
+  background: linear-gradient(#141e30,lightskyblue);
+  margin:0;
+  padding:0;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  color:white;
+  font-family: Arial,sans-serif;
+  height: 100vh;
+}
+h1{
+  font-family: Roboto;
+  font-weight: bolder;
+  text-align:center;
+}
+.registration-form{
+  box-sizing: border-box;
+ border-radius: 12px;
+ background-color: #141e30;
+  width:100%;
+  max-width: 400px;
+}
+input{
+  box-sizing: border-box;
+  margin-bottom: 12px;
+  width:380px;
+  height:30px;
+  border-radius: 15px;
+  background: transparent;
+  outline:none;
+  color:#3a6c56;
+  font-size: 18px;
+  font-family: Roboto;
+  font-weight: bolder;
+}
+input::placeholder{
+  font-size:14px;
+  color:#fff;
+  font-weight:bolder;
+}
+label{
+  display: block;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bolder;
+  margin-bottom:7px;
+  color:lightblue;
+}
+input ,label{
+  margin-left:10px;
+}
+select,input{
+  width:380px;
+  height:30px;
+  margin-bottom: 12px;
+  background: transparent;
+  outline:none;
+  color:#fff;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: bolder;
+  box-sizing: border-box;
+  padding-left:12px;
+  margin-left:10px;
+  border-top: 0px;
+  border-left:0px;
+  border-right-width: 2px;
+  border-bottom-width: 2px;
+ border-bottom-color: lightblue;
+ border-right-color: lightblue;
+ border-bottom-right-radius: 12px;
+ border-top-right-radius: 12px;
+ border-bottom-left-radius: 12px;
+}
+option{
+  color:#fff;
+  background-color: #141e30;
+}
+.submit{
+  width:150px;
+  height:45px;
+  margin-top:15px;
+  margin-bottom:30px;
+  margin-left:130px;
+  cursor: pointer;
+  border-radius: 5px;
+  border:none;
+  color:#fff;
+  font-size:20px;
+  font-weight: bolder;
+  font-family: Roboto;
+  background: linear-gradient(#141e30,lightskyblue);
+}
+.submit:hover{
+  cursor: pointer;
+  display:flex;
+  padding-bottom: 35px;
+  justify-content: center;
+  padding-top: 15px;
+}

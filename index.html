@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sample Registration Form</title>
+  <link rel="stylesheet" href="./Project 2.css">
+</head>
+<body>
+  <div class="registration-form">
+    <h1> Registration Form</h1>
+    <form method="post">
+      <label for="">Username:</label>
+      <input type="text" required placeholder="Enter username">
+      <label for="">Email Id:</label>
+      <input type="text" required placeholder="Enter Email Id">
+      <label for="password">Password:</label>
+      <input type="password" required placeholder="Enter password">
+      <label for="">Institute Name:</label>
+      <input type="text" required placeholder="Enter Institute name">
+      <label for="select course">Select Course:</label>
+      <select id="select-course" name="select-course" required>
+        <option value="">Select Course</option>
+        <option value="">Frontend Web development</option>
+        <option value="">Backend Web development</option>
+        <option value="">Python Programming</option>
+        <option value="">C++ Programming</option>
+      </select>
+      <label for="">Mobile No:</label>
+      <input type="password" required placeholder="Enter mobile number" maxlength="10">
+      <button class="submit" type="button" id="button"
+      onclick="Tobi()">SUBMIT</button>
+    </form>
+  </div>
+  <script>
+    function Tobi(){
+      alert("YOUR REGISTRATION SUCCESSFULL !")
+      alert("CONGRATULATIONS MATE !")
+      alert("KEEP GOING .")
+      alert("SAYONARA .")
+    }
+  </script>
+</body>
+</html>
